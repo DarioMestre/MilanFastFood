@@ -1,0 +1,201 @@
+/* Fondo general */
+body {
+    background-color: #4b2e2b; /* Marrón oscuro */
+    color: #f4e1d2; /* Color crema suave para texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-agregar-carrito {
+    font-family: "Borel", cursive;
+    background-color: #8b4513; /* Marrón fuerte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-agregar-carrito:hover {
+    background-color: #a0522d; /* Marrón más claro */
+}
+
+/* Encabezado */
+header {
+    background-color: #3a1f1a; /* Marrón oscuro */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+header .logo h1 {
+    font-family: "Grechen Fuemen", cursive;
+    color: #f4e1d2; /* Color crema suave */
+    font-size: 1.8em;
+    margin: 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    color: #f4e1d2; /* Crema suave */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #d2b48c; /* Marrón claro al pasar el cursor */
+}
+
+/* Sección Principal */
+h2 {    
+    font-family: "Roboto Slab", serif;
+    color: #d2b48c; /* Marrón claro */
+    font-size: 1.6em;
+}
+
+p, h3, label, blockquote {
+    font-family: "Cairo", sans-serif;
+    color: #f4e1d2; /* Texto en crema suave */
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #5c4033; /* Marrón medio oscuro para fondo de testimonios */
+    padding: 10px;
+    border-left: 5px solid #d2b48c; /* Resaltar borde izquierdo */
+}
+
+/* Productos */
+.productos {
+    display: flex;
+    gap: 20px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 300px;
+}
+
+.producto h3 {
+    color: #d2b48c; /* Marrón claro */
+}
+
+.producto p {
+    color: #f4e1d2; /* Crema suave */
+}
+
+/* Estilos para testimonios */
+.testimonio {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #5c4033; /* Fondo marrón medio oscuro */
+    border-radius: 10px;
+}
+
+.testimonio blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #f4e1d2;
+    margin-bottom: 15px;
+}
+
+.video-testimonial {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.video-testimonial iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+}
+
+/* Formulario de contacto */
+form {
+    background-color: #5c4033; /* Fondo marrón oscuro */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d2b48c; /* Borde marrón claro */
+    border-radius: 5px;
+    background-color: #f4e1d2; /* Fondo crema claro para inputs */
+}
+
+button {
+    background-color: #d2b48c; /* Marrón claro */
+    color: #4b2e2b; /* Texto marrón oscuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c19a6b; /* Efecto al pasar el cursor */
+}
+
+/* Pie de página */
+footer {
+    background-color: #3a1f1a; /* Marrón oscuro */
+    color: #f4e1d2; /* Texto crema suave */
+    text-align: center;
+    padding: 10px;
+}
+
+.social-links a {
+    color: #d2b48c; /* Marrón claro */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #c19a6b; /* Efecto hover más claro */
+}
+
+/* Para pantallas pequeñas (móvil) */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: block;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 200px;
+}
+
+.contact-form-container {
+    border: 2px solid #8b4513; /* Borde marrón fuerte */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4e1d2; /* Fondo crema claro */
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle efecto de elevación */
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Comidas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagenes\logo milanfastfood.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Cairo:wght@200..1000&family=Dancing+Script:wght@400..700&family=Grechen+Fuemen&family=Borel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes\logo milanfastfood.jpg" alt="Logo Milan Fast Food" width="100" height="100">
+            <h1>Milan Fast Food</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="https://www.instagram.com/milan.fast.food?igsh=MXNyb3gzcGxnejEzMQ==" target="_blank">Nuestro Instagram</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="nosotros">
+            <article>
+            <h2>Milan Fast Food</h2>
+            <article>
+                <article>
+                .<p>En Milan Fast Food, nos dedicamos a ofrecer comida rápida de calidad, combinando el sabor tradicional con un toque moderno. Somos una rotisería comprometida con brindar a nuestros clientes una experiencia gastronómica única, a través de productos frescos y un servicio cercano.</p>
+            </article>
+        </section>
+
+        <section id="productos">
+<article>
+    <h2>Nuestros Productos</h2>
+</article>
+            
+            <div class="productos">
+                <article class="producto">
+                    <img src="imagenes\Hamburgesa simple cheddar mas huevo.jpg" alt="hamburgesa simple cheddar mas huevo.jpg" alt="Crema de CBD Orgánica" width="500" height="500">
+                    <h3>Hamburguesa Super Cheddar</h3>
+<p>hamburguesa "Super Cheddar" que comienza con un suave pan de papa casero, dorado y esponjoso. En su interior, un medallón de carne casero, preparado a la perfección, sirve como base. Encima de la carne, se colocan dos fetas de queso cheddar fundido, que se derriten sobre el medallón. Para realzar aún más el sabor, la hamburguesa está bañada con un aderezo de cheddar líquido, cubriendo cada rincón con una explosión cremosa y deliciosa. Todo envuelto en el pan de papa, creando una experiencia irresistible para los amantes del queso cheddar.</p>      
+              <h4>Ingredientes.</h4>
+                    <ul>
+                    <li>Pan de papa casero: suave y esponjoso, que envuelve todos los ingredientes.</li>   
+                    <li>Medallón de carne casero: una porción jugosa y sabrosa de carne 100% vacuna.</li>
+                    <li>Queso cheddar fundido: dos fetas que cubren el medallón, añadiendo cremosidad.</li>
+               <li>Cheddar líquido: como aderezo principal, potenciando el sabor con una capa extra de queso.</li>
+                </ul>
+                    <label for="talle-crema">Selecciona el Tamaño:</label>
+                    <select id="talle-crema" name="Tamaño">
+                        <option value="30">30cc</option>
+                        <option value="50">50cc</option>
+                    </select>
+                    <button class="btn-agregar-carrito" onclick="agregarAlCarrito('Crema de CBD')">Agregar al carrito</button>
+                </article>
+
+                <article class="producto">
+                    <img src="imagenes/hamburguesa completa con jamon y quesoo.jpg" alt="hamburguesa completa con jamon y quesoo" width="500" height="500">
+                    <h3>Hamburguesa Completa con Jamon y Queso</h3>
+                    <p>Imagina una hamburguesa con un suave pan de papa casero, esponjoso y dorado. En su interior, un medallón de carne casero, preparado con carne 100% vacuna, se combina con una capa de muzzarella fundida, creando una base deliciosa. Encima de la muzzarella, se añaden finas lonjas de jamón, aportando un toque extra de sabor. Una capa fresca de lechuga crujiente y rodajas de tomate jugoso equilibran la combinación, mientras que un huevo frito completa esta hamburguesa con un toque clásico. Todo se envuelve en otro pan de papa casero, formando una hamburguesa irresistible y balanceada.</p>
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>Medallón de carne casero: hecho con carne 100% vacuna, es el componente principal.</li>
+                    <li>Medallón de carne casero: hecho con carne 100% vacuna, es el componente principal.</li>
+                  <li>Jamón: lonjas de jamón que añaden un sabor salado y delicioso.</li>
+              <li>Lechuga Tomate y Huevo</li>
+              <li>Aderezo a Elección</li>
+                </ul>
+                    <label for="talle-aceite">Selecciona el Tamaño:</label>
+                    <select id="talle-aceite" name="Tamaño">
+                        <option value="10">10ml</option>
+                        <option value="20">20ml</option>
+                    </select>
+                    <button class="btn-agregar-carrito" onclick="agregarAlCarrito('Aceite de CBD')">Agregar al carrito</button>
+                </article>
+                <article class="producto">
+                    <img src="imagenes\hamburguesa con panceta y barbacoa.jpg" alt="hamburguesa con panceta y barbacoa" width="500" height="500">
+                    <h3>Hamburguesa Con Panceta y Barbacoa</h3>
+                    <p>hamburguesa que comienza con un suave pan de papa casero, dorado y esponjoso. En su interior, un medallón de carne 100% vacuna está cubierto por dos fetas de queso cheddar fundido. Sobre el queso, se encuentra una porción generosa de panceta crujiente. Un huevo frito completa la capa superior, mientras que una salsa barbacoa cubre los ingredientes, aportando un sabor ahumado. Todo se envuelve en un segundo pan de papa, formando una hamburguesa deliciosa y lista para disfrutar.</p>>                
+                        <h4>Ingredientes</h4>
+                <ul>
+                    <li>Medallón de carne 100% vacuna: una pieza central de carne jugosa que aporta el sabor principal.</li>
+                    <li>Queso cheddar: dos fetas de queso que se funden sobre la carne, añadiendo un toque cremoso y salado.</li>
+                    <li>Panceta crujiente: tiras generosas de panceta que complementan con su sabor ahumado y textura.</li>  
+                </ul>
+                    <   label for="talle-aceite">Selecciona el Tamaño:</>
+                    <select id="talle-aceite" name="Tamaño">
+                        <option value="10">10ml</option>
+                        <option value="20">20ml</option>
+                    </select>
+                    <button class="btn-agregar-carrito" onclick="agregarAlCarrito('Aceite de CBD')">Agregar al carrito</button>
+                </article>
+                <article class="producto">
+                    <img src="imagenes\hamburguesa doble carne completa.jpg" alt="Hamburguesa Doble Carne Completa" width="500" height="500">
+                    <h3>Hamburguesa Doble Carne Completa</h3>
+<p>Imagina una hamburguesa imponente con doble medallón de carne, cada uno cubierto con una generosa porción de queso cheddar fundido. Entre las capas de carne, se encuentran rodajas frescas de lechuga y tomate, junto con finas tiras de cebolla morada que aportan un toque crujiente y fresco. En la parte superior, un huevo frito agrega un extra de sabor y textura. El pan suave sostiene todos estos ingredientes, y como toque final, la hamburguesa se baña en cheddar líquido o en el aderezo de tu elección, cubriendo la carne y complementando los sabores a la perfección. Una opción completa y contundente para los amantes de las hamburguesas.</p>
+<h4>Ingredientes.</h4>
+                    <ul>
+                        <li>Doble medallón de carne: dos capas de carne 100% vacuna que aportan una porción generosa y jugosa.</li>
+<li>Queso cheddar fundido: doble porción de cheddar en cada medallón, añadiendo cremosidad a cada bocado.</li>
+<li>Huevo frito: un ingrediente clásico que complementa la textura y el sabor.</li>
+<li>Cheddar líquido o aderezo a elección: como toque final, un aderezo que potencia los sabores y ofrece personalización.</li>
+                    </ul>
+                    <label for="talle-aceite">Selecciona el Tamaño:</label>
+                    <select id="talle-aceite" name="Tamaño">
+                        <option value="10">10ml</option>
+                        <option value="20">20ml</option>
+                    </select>
+                    <button class="btn-agregar-carrito" onclick="agregarAlCarrito('Aceite de CBD')">Agregar al carrito</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="beneficios">
+            <h2 id="beneficios">Beneficios del CBD para tu salud</h2>
+            <article>
+                <p>El CBD es conocido por sus propiedades antiinflamatorias, relajantes y sus múltiples beneficios para la piel y el bienestar general. Todos nuestros productos son libres de químicos y 100% naturales.</p>
+            </article>
+        </section>
+
+        <section id="testimonios">
+            <h2>Lo que Dicen Nuestros Clientes</h2>
+            <div class="testimonios">
+                <article class="testimonio">
+                    <blockquote>
+                        "La crema de CBD ha mejorado notablemente la salud de mi piel. ¡Altamente recomendada!"
+                    </blockquote>
+                    <div class="video-testimonial">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lmPILp6kTs0?si=vDKYdclqDvKRZ24D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="testimonio">
+                    <blockquote>
+                        "Los aceites son una maravilla para relajarme después de un largo día. El mejor producto orgánico que he probado."
+                    </blockquote>
+                    <div class="video-testimonial">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WuE4QgMGxyg?si=XMf_gJUp--kfL98O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <!-- Nuevo div que envuelve el formulario -->
+            <div class="contact-form-container">
+                <form action="#" method="post">
+                    <div>
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+                    </div>
+                    <div>
+                        <label for="clave">Clave:</label>
+                        <input type="password" id="clave" name="clave" placeholder="Clave" required>
+                    </div>
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" placeholder="Edad" required>
+                    </div>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escríbenos un mensaje..." required></textarea>
+                    </div>
+                    <div>
+                        <button type="reset">Limpiar formulario</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CBD Natural. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/bienestarc.b.d?igsh=ajV0Y2xyZXFqaTRq">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
